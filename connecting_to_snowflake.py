@@ -4,7 +4,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from snowflake.snowpark import Session
+
 
 st.set_page_config(page_title='Experimental Connection', page_icon=':wave:')
 # Initialize connection.
