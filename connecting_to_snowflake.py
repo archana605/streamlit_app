@@ -13,5 +13,5 @@ session = st.experimental_connection('snowpark').session
 temp = session.table('book_author_publisher')
 temp
 
-code_1 = column_lineage.py
+code_1 = streamlit_app/column_lineage.py
 code_1
